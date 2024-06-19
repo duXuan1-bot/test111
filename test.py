@@ -35,7 +35,7 @@ def extract_body_text(html):
 
 # Generate word cloud
 def generate_wordcloud(text):
-    wordcloud = WordCloud(font_path='simhei.ttf',  # 设置字体路径，确保支持中文
+    wordcloud = WordCloud(font_path='SIMHEI.TTF',  # 设置字体路径，确保支持中文
                           width=800, height=400,
                           background_color='white').generate(text)
     return wordcloud
