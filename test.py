@@ -43,11 +43,11 @@ def generate_wordcloud(text):
 # Main function
 def run():
     st.set_page_config(
-        page_title="Hello",
+        page_title="欢迎使用中文文本分析工具！",
         page_icon="",
     )
 
-    st.write("# Welcome to Streamlit! ")
+    st.write("#欢迎使用中文文本分析工具！ ")
 
     url = st.text_input('Enter URL:')
 
@@ -66,7 +66,7 @@ def run():
 
                 # 打印最高词频的词，以检查是否被正确识别
                 most_common_word, most_common_count = word_counts.most_common(1)[0]
-                st.write(f"The most common word is '{most_common_word}' with a count of {most_common_count}")
+                st.write(f"最常见的词是 '{most_common_word}' 出现次数为 {most_common_count}")
 
                 top_words = word_counts.most_common(20)
 
