@@ -66,7 +66,7 @@ def run():
 
                 # 打印最高词频的词，以检查是否被正确识别
                 most_common_word, most_common_count = word_counts.most_common(1)[0]
-                st.write(f"最常见的词是 '{most_common_word}' 出现次数为 {most_common_count}")
+                st.write(f"最常见的词是 '{most_common_word}' ,出现次数为 {most_common_count}次。")
 
                 top_words = word_counts.most_common(20)
 
