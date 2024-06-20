@@ -49,7 +49,7 @@ def run():
 
     st.write("#欢迎使用中文文本分析工具！ ")
 
-    url = st.text_input('Enter URL:')
+    url = st.text_input('输入 URL:')
 
     if url:
         try:
