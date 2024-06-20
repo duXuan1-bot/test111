@@ -47,7 +47,7 @@ def run():
         page_icon="",
     )
 
-    st.write("#欢迎使用中文文本分析工具！ ")
+    st.write("<h1 style='font-size: 40px;'>欢迎使用中文文本分析工具！</h1>", unsafe_allow_html=True)
 
     url = st.text_input('输入 URL:')
 
